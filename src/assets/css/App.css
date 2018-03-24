@@ -1,0 +1,14 @@
+.App-header{
+	text-align: center;
+	font-family: 'SF Distant Galaxy Outline';
+	color: #ffe919;
+	font-size: 2em;
+	padding-top: 40px;
+}
+
+
+@media (max-width:768px) {
+	.App-header{
+		font-size: 100%;
+	}
+}

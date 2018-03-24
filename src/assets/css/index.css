@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'SF Distant Galaxy Outline';
+    src: url('./../fonts/SF Distant Galaxy Outline.ttf');
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./../img/star-wars-galaxy-background.jpg");
+}
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
