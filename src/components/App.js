@@ -46,7 +46,7 @@ class App extends Component {
         }
         {
           <Button
-            text = "Trust the force"
+            text = "Next"
             action = {this.sortPlanet.bind(this)}
           />
         }
