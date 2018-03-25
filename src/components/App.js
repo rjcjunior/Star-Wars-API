@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../assets/css/App.css';
 import Card from './Card';
+import Button from './Button';
   
 class App extends Component {
   render() {
@@ -12,6 +13,10 @@ class App extends Component {
         {
           <Card/>
         }
+        {
+          <Button/>
+        }
+
       </div>
     );
   }

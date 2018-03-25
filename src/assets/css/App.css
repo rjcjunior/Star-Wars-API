@@ -83,6 +83,30 @@
 	text-transform: uppercase;
 	font-weight: bolder;
 }
+
+.btn-next {
+    margin: 0 auto;
+    margin-top: 0px;
+    display: flex;
+    margin-top: 3%;
+    padding: 13px;
+    background: rgba(255,255,255,0.2);
+    box-sizing: border-box;
+    -webkit-box-shadow: -2px 0px 17px -1px rgba(255,255,255,0.63);
+    box-shadow: -2px 0px 17px -1px rgba(255,255,255,0.63);
+    border: 0px;
+    color: rgba(255,255,255,1);
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'SF Distant Galaxy Outline';
+}
+.btn-next:hover {
+    color: #ffe919;
+    -webkit-box-shadow: -2px 0px 17px -1px #ffe919;
+    box-shadow: -2px 0px 17px -1px #ffe919;
+    background: rgba(255,255,255,0.1);
+}
+
 @media (max-width:768px) {
 	.App-header{
 		font-size: 100%;
@@ -90,5 +114,8 @@
 	.card{
 		width: 88%;
 		margin-top: 20%;
+	}
+	.btn-next{
+		margin-top: 7%;
 	}
 }
