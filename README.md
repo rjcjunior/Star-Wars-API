@@ -8,5 +8,5 @@
  
  1. git clone https://github.com/rjcjunior/Star-Wars-API
  2. cd Star-Wars-API
- 3. npm install
- 4. npm start
+ 3. yarn install
+ 4. yarn start
