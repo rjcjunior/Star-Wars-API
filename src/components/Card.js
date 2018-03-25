@@ -18,10 +18,9 @@ const Card  = ({ planet, population, climate, terrain, featured }) =>
 
 Card.propTypes = {
     planet: PropTypes.string.isRequired,
-    population: PropTypes.number,
     climate: PropTypes.string.isRequired,
     terrain: PropTypes.string.isRequired,
-    featured: PropTypes.numer
+    featured: PropTypes.number
 };
 
 Card.defaultProps = {

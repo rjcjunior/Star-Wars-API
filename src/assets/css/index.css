@@ -1,3 +1,5 @@
+/*Declarações de fontes*/
+
 @font-face {
     font-family: 'SF Distant Galaxy Outline';
     src: url('./../fonts/SF Distant Galaxy Outline.ttf');
@@ -7,6 +9,8 @@
     font-family: 'SF Distant Galaxy';
     src: url('./../fonts/SF Distant Galaxy.ttf');
 }
+
+/*Body*/
 * {
     margin:0;
     padding:0;
